@@ -11,7 +11,11 @@ To write a python program to perform stop and wait protocol
 6. Stop the Program
 ## PROGRAM
 # client:
+```python
+DEVELOPED BY : Kanagavel A K
+REGISTER NO : 212223230096
 ```
+```py
 import socket
 s=socket.socket()
 s.bind(('localhost',8000))
@@ -29,7 +33,7 @@ while True:
     break
 ```
 # server:
-```
+```py
 import socket
 s=socket.socket()
 s.connect(('localhost',8000))
